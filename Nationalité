@@ -1,0 +1,11 @@
+let age = 23; // Remplace par l'âge souhaité
+let nationalite = "Suisse"; // Remplace par "France" ou "Suisse"
+
+let majorite = (nationalite.toLowerCase() === "france") ? 18 :
+               (nationalite.toLowerCase() === "suisse") ? 17 : null;
+
+if (majorite) {
+    console.log(age >= majorite ? "Vous êtes majeur." : "Vous êtes mineur.");
+} else {
+    console.log("Nationalité non reconnue.");
+}
