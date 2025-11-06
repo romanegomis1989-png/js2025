@@ -1,0 +1,7 @@
+let a = 12;
+let b = 45;
+let c = a + b;
+
+console.log("La valeur de a est :", a);
+console.log("La valeur de b est :", b);
+console.log("La somme de a et b est :", c);
