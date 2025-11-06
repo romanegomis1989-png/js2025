@@ -1,0 +1,6 @@
+// Table de multiplication de 5
+let nombre = 5;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(nombre * i);
+}
